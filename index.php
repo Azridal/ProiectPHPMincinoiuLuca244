@@ -143,15 +143,9 @@ session_start();
                     Se termină: <?php echo htmlspecialchars($event['end_date']); ?>
                 </p>
                 <p>Locatie:<?php echo htmlspecialchars($event['location']); ?></p>
-                <a href="#" id="interest" class="btn" onclick="addInterest()">Sunt interesat</a>
             </div>
         </div>
         <script>
-            function addInterest()
-            {
-                document.getElementById("interest").innerText = "S-a transmis interesul";
-            }
-        </script>
         <?php
             endforeach;
         else:
