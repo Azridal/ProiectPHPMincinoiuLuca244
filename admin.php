@@ -181,7 +181,6 @@ if (isset($_GET['delete_id'])) {
                     Se termină: <?php echo htmlspecialchars($event['end_date']); ?>
                 </p>
                 <p>Locatie:<?php echo htmlspecialchars($event['location']); ?></p>
-                <p>Nivel Interes:<?php echo htmlspecialchars($event['interest']); ?></p>
                 <a href="admin.php?delete_id=<?php echo $event['id']; ?>" class="btn" onclick="return confirm('Ești sigur că vrei să ștergi acest eveniment?');">Șterge</a>
             </div>
         </div>
